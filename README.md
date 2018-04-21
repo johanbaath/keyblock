@@ -1,6 +1,6 @@
 # keyblock
 
-A tiny application to block unintended duplicate keypresses caused by defect first- and second-generation butterfly keyboards from Apple.
+A tiny application that blocks unintended duplicate keypresses caused by defect first- and second-generation butterfly keyboards from Apple.
 
 It works by intercepting and blocking certain keyboard events depending on how long ago a key-down event was triggered.
 
