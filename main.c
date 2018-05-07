@@ -40,7 +40,7 @@ CGEventRef filterKeysCallback(CGEventTapProxy proxy, CGEventType type,
 }
 
 bool load_settings() {
-  JSON_Value *root_value = json_parse_file("./settings.json");
+  JSON_Value *root_value = json_parse_file("/usr/local/etc/keyblock/settings.json");
 
   if (json_value_get_type(root_value) != JSONObject) {
     return false;
