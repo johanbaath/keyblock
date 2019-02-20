@@ -13,9 +13,9 @@
 	<key>WorkingDirectory</key>
 	<string>/usr/local/etc/keyblock</string>
 	<key>StandardOutPath</key>
-	<string>/dev/null</string>
+	<string>/var/log/keyblock/stdout.log</string>
 	<key>StandardErrorPath</key>
-	<string>/dev/null</string>
+	<string>/var/log/keyblock/error.log</string>
 	<key>KeepAlive</key>
 	<true/>
 </dict>

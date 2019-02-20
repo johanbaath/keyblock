@@ -17,6 +17,7 @@ echo ""
 make
 echo ""
 mkdir -p /usr/local/etc/keyblock
+mkdir -p /var/log/keyblock
 cp settings.sample.json /usr/local/etc/keyblock/
 mv keyblock /usr/local/bin/
 cp com.johanbaath.keyblock.plist /Library/LaunchDaemons/
